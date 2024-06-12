@@ -1,0 +1,20 @@
+## AWS Policy Configuration
+
+The JSON policy example below was generated using the AWS Policy Generator, which helps ensure that the policy conforms to AWS standards and best practices. This policy grants extensive permissions (`s3:*`) to a specific AWS IAM user for operations on a designated S3 bucket. This is a redacted version for demonstration purposes, with placeholders used to protect sensitive information.
+
+```json
+{
+    "Version": "2012-10-17",
+    "Id": "PolicyExample",
+    "Statement": [
+        {
+            "Sid": "StmtExample",
+            "Effect": "Allow",
+            "Principal": {
+                "AWS": "arn:aws:iam::[AWS Account ID]:user/[User Name]"
+            },
+            "Action": "s3:*",
+            "Resource": "arn:aws:s3:::[Bucket Name]"
+        }
+    ]
+}
