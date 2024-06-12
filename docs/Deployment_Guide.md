@@ -1,6 +1,5 @@
 # Deployment Guide for AWS S3 Static Hosting with GitHub Actions
 
-## Overview
 This guide details the steps used to automate the deployment of a static website to AWS S3 using GitHub Actions.
 
 ## Steps:
