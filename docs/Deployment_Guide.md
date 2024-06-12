@@ -18,15 +18,8 @@ This guide details the steps used to automate the deployment of a static website
    - Configure the bucket for static website hosting.
    - Apply the bucket policy for public access as defined in `s3-bucket-policy.json`.
 
-4. **DNS Configuration with AWS Route 53**
-   - Create a hosted zone and configure the DNS records to point your domain to the S3 bucket.
-   - Document the changes in Route 53 that link to your S3 bucket’s static website endpoint.
-
-5. **Security Configuration**
+4. **Security Configuration**
    - Detail the IAM policies required for GitHub Actions to interact securely with AWS services, documented in `IAM-Policy.json`.
-
-6. **Testing and Validation**
-   - Steps to validate the deployment process and ensure the website is accessible via the custom domain.
 
 ## Conclusion
 This guide serves as a detailed walkthrough for setting up a CI/CD pipeline that deploys a static website to AWS S3, utilizing GitHub Actions for automation.
