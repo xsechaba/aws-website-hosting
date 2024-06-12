@@ -5,6 +5,8 @@ This repository serves as a demonstration of how to automate the deployment of a
 
 This is the [website](https/sechabam.co.za) and the functional repository can be found [here](https://github.com/xsechaba/sechabam-portfolio).
 
+![Architectural Diagram](architectural_diagram/hosting-architectural-diagram.jpg)
+
 ## Features
 - **Automated Deployments**: Utilizes GitHub Actions to automate the workflow of deploying static files to AWS S3.
 - **AWS S3 Hosting**: Demonstrates how to configure an S3 bucket for static website hosting.
