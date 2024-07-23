@@ -3,7 +3,7 @@
 ## Overview
 This repository serves as a demonstration of how to automate the deployment of a static website to AWS S3 using GitHub Actions. It highlights the integration of continuous deployment practices with AWS cloud services to facilitate efficient and scalable web hosting.
 
-This is the [website](https/sechabam.co.za) and the functional repository can be found [here](https://github.com/xsechaba/sechabam-portfolio).
+This is the [website](https://www.sechabam.co.za/) and the functional repository can be found [here](https://github.com/xsechaba/sechabam-portfolio).
 
 ![Architectural Diagram](architectural_diagram/hosting-architectural-diagram.jpg)
 
